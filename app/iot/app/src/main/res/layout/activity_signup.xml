@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupActivity">
+
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="478dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="correo electrónico"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/contrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/contrasenaconfirmacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirmar contraseña"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/textoedadsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="edad"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/textoestaturasignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="estatura (cm)"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/textopesosignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="peso (kg)"
+            android:inputType="textPersonName" />
+
+        <RadioGroup
+            android:id="@+id/radiogroupsignup"
+            android:layout_width="313dp"
+            android:layout_height="93dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccione su genero:" />
+
+            <RadioButton
+                android:id="@+id/radioButtonM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="masculino" />
+
+            <RadioButton
+                android:id="@+id/radioButtonF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="femenino" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/regbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="registrarUsuario"
+            android:text="@string/btn_regi"
+            tools:text="@string/btn_regi" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/backsignupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goMain"
+        android:tint="#673AB7"
+        app:srcCompat="@drawable/abc_vector_test"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

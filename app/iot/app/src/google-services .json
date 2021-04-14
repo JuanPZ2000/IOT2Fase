@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "439880169258",
+    "firebase_url": "https://termohealth-44b6c-default-rtdb.firebaseio.com",
+    "project_id": "termohealth-44b6c",
+    "storage_bucket": "termohealth-44b6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439880169258:android:a9dae593033c3e2c0d1053",
+        "android_client_info": {
+          "package_name": "com.example.iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439880169258-p9jg9dv53liua8q92j04rsdagv5qot4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmh1V1s615kUmzAM_nIPn6M7yHxv9Ol0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439880169258-p9jg9dv53liua8q92j04rsdagv5qot4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

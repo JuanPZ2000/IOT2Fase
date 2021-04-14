@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="635dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:name="com.example.iot.qs"
+            android:id="@+id/fragmentdelfragment"
+            android:layout_width="319dp"
+            android:layout_height="465dp">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonqs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Quienes somos?"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/buttoncf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Cómo funciona?"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/buttondb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Diagrama de Bloques"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
